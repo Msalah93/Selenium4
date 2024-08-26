@@ -12,7 +12,7 @@ public class Browser {
 		System.setProperty("webdriver.chrome.driver", "./driver/chromedriver.exe");
    	      WebDriver driver = new ChromeDriver();
    	      
-   	      //open a web page
+   	      //open a web page....
    	      driver.get("https://translate.google.fr/");
    	      String originalwindow =driver.getWindowHandle();
    	      
